@@ -1,0 +1,115 @@
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Gamja Flower', cursive;
+	color: #87468B;
+	width: 400px;
+	height: 50px;
+	margin: 0px auto;
+	border: 3px solid grey;
+	margin-top: 10px;
+	box-shadow: 5px 5px 7px grey;
+}
+
+/.robo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.head {
+	width: 200px;
+	height: 150px;
+	background-color: #BB5E7D;
+	border-radius: 100px 100px 0px 0px;
+	margin: 0px auto;
+	margin-top: 50px;
+}
+.head:hover {
+	width: 250px;
+	transition: 1s ease-in-out;
+}
+.left_eye,.right_eye {
+	width:20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #7DB0B0;
+}
+
+.left_eye {
+	position: relative;
+	top: 100px;
+	left: 40px;
+}
+.right_eye {
+	position: relative;
+	top:100px;
+	left: 120px;
+}
+.eyes {
+	display: flex;
+}
+
+.upper_body {
+	width: 400px;
+	height: 150px;
+	margin: 0px auto;
+	display: flex;
+	justify-content: center;
+}
+.left_arm,.right_arm {
+	width: 40px;
+	height: 130px;
+	background-color:#7C7C7C;
+	border-radius: 100px;
+	margin: 0 auto;
+}
+.left_arm {
+	margin-right: 7px;
+}
+.right_arm {
+	margin-left: 7px;
+}
+.torso {
+	width: 200px;
+	height: 200px;
+	background-color: rgba(152, 215, 27, 0.97);
+	border-radius: 0px 0px 60px 60px;
+	margin-top: 10px;
+	position: relative;
+	z-index: 1;
+}
+.left_arm:hover {
+	transition: 3s ease-in-out;
+	transform: rotate(30deg);
+}
+.right_arm:hover {
+	transition: 3s ease-in-out;
+	transform: rotate(-30deg);
+}
+
+.lower_body {
+	width: 300px;
+	height: 200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.left_leg,.right_leg {
+	width: 40px;
+	height: 120px;
+	background-color: #766B9C;
+	border-radius: 0px 0px 50px 50px;
+}
+.left_leg {
+	margin-right: 10px;
+}
+.right_leg {
+	margin-left: 10px;
+}
+.left_leg:hover {
+	transform:rotate(20deg); ;
+}
+.right_leg:hover {
+	transform:rotate(-20deg); ;
+}
